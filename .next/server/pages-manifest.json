@@ -1,9 +1,10 @@
 {
+  "/acercade": "pages/acercade.html",
+  "/": "pages/index.js",
+  "/servicios": "pages/servicios.html",
+  "/usuarios/[id]": "pages/usuarios/[id].js",
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/servicios": "pages/servicios.js",
-  "/": "pages/index.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
-  "/acercade": "pages/acercade.js"
+  "/404": "pages/404.html"
 }
