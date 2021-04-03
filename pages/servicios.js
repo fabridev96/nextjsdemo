@@ -1,10 +1,15 @@
 import React from 'react';
 import Contenedor from '../componentes/Contenedor';
+import Head from 'next/head';
 
 const Servicios = () => {
 
     return (
         <Contenedor>
+
+            <Head>
+                <title>Servicios | Proyecto con Next JS</title>
+            </Head>
 
             <h1>Servicios</h1>
 

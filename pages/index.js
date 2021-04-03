@@ -1,13 +1,22 @@
 import Contenedor from '../componentes/Contenedor';
+import Head from 'next/head';
 
 const Index = () => {
 
     return (
-       <Contenedor>
+        <div>
 
-            <h1>Página principal</h1>
+            <Contenedor>
 
-       </Contenedor>
+                <Head>
+                    <title>Inicio | Proyecto con Next JS</title>
+                </Head>
+
+                <h1>Página principal</h1>
+
+            </Contenedor>
+
+        </div>
     );
 
 }
