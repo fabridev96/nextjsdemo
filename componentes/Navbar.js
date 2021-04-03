@@ -1,10 +1,28 @@
+import Link from 'next/link';
+
 const Navbar = () => {
 
     return (
         <ul>
-            <li><a href="/">Inicio</a></li>
-            <li><a href="/acercade">Acerca de</a></li>
-            <li><a href="/servicios">Servicios</a></li>
+
+            <li>
+                <Link href="/">
+                    <a>Inicio</a>
+                </Link>
+            </li>
+
+            <li>
+                <Link href="/acercade">
+                    <a>Acerca de</a>
+                </Link>
+            </li>
+
+            <li>
+                <Link href="/servicios">
+                    <a>Servicios</a>
+                </Link>
+            </li>
+
         </ul>
     )
 

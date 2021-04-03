@@ -1,13 +1,14 @@
 import React from 'react';
-import Navbar from '../componentes/Navbar';
+import Contenedor from '../componentes/Contenedor';
 
 const AcercaDe = () => {
 
     return (
-        <div>
-            <Navbar />
+        <Contenedor>
+
             <h1>Acerca de</h1>
-        </div>
+
+        </Contenedor>
     );
 
 }

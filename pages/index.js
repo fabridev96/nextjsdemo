@@ -1,12 +1,13 @@
-import Navbar from '../componentes/Navbar';
+import Contenedor from '../componentes/Contenedor';
 
 const Index = () => {
 
     return (
-        <div>
-            <Navbar />
+       <Contenedor>
+
             <h1>Página principal</h1>
-        </div>
+
+       </Contenedor>
     );
 
 }
